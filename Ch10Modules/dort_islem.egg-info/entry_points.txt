@@ -1,0 +1,2 @@
+[console_scripts]
+dort_islem = dort_islem.__main__:main
