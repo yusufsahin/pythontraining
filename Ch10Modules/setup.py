@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-
+#pip install setuptools
 setup(
     name="dort_islem",
     version="0.1",
@@ -17,3 +17,5 @@ setup(
     description="Dört temel matematiksel işlemleri gerçekleştiren bir Python paketi",
     keywords="dort islem matematik",
 )
+
+# python setup.py sdist
