@@ -1,0 +1,2 @@
+Merhaba Dünya!
+Bu, pathlib modülü ile belirtilen dosya yoludur.
