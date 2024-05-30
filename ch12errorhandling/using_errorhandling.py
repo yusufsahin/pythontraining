@@ -1,5 +1,3 @@
-
-
 import sys
 
 print("Bu normal bir mesajdır",file=sys.stdout)
@@ -11,7 +9,8 @@ warnings.warn("Bu bir uyarıdır",UserWarning)
 #try, except, else ve finally blokları
 
 try:
-    x=1/0
+    x=1/1
+    #x=1/0
 except ZeroDivisionError:
     print("Bir sıfıra bölme hatası meydana geldi.")
 else:
@@ -41,6 +40,7 @@ except ValueError as e:
     print("Bir değer hatası meydana geldi.",e)
 
 a=input("Bir sayı giriniz")
+
 try:
     x=1/int(a)
     print(x)
@@ -65,8 +65,7 @@ except:
     print("Bir hata meydana geldi.")
 
 #Kendi istinanızı oluşturma
-class NegatifSayiHatasi(Exception):
-    pass
+
 def pozitif_sayi(sayi):
     if sayi <= 0:
         raise ValueError("Sayı pozitif olmalıdır.")
